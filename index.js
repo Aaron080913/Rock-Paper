@@ -5,10 +5,6 @@ document.getElementById("statement");
 document.getElementById("playerChoice");
     const computerChoice =
 document.getElementById("computerChoice");
-    const playerScoreDisplay = 
-document.getElementById("playerScoreDisplay")
-    const computerScoreDisplay =
-document.getElementById("computerScoreDisplay")
     const randomNumber =
 Math.floor(Math.random() * 3);
 
@@ -54,8 +50,5 @@ Math.floor(Math.random() * 3);
 statement.innerHTML = "Make A choice to start the Game!";
 playerChoice.innerHTML = "?";
 computerChoice.innerHTML = "?";
-playerScoreDisplay.innerHTML = "0";
-computerScoreDisplay.innerHTML = "0"; 
-
 
   }
