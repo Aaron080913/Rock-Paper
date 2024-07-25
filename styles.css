@@ -27,3 +27,7 @@ button:active{
     scale: 0.6;
     transition: 0.6s;
 }
+#instructions_area {
+display: flex;
+justify-content: space-evenly;
+}
