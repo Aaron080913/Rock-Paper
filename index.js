@@ -5,6 +5,10 @@ document.getElementById("statement");
 document.getElementById("playerChoice");
     const computerChoice =
 document.getElementById("computerChoice");
+    const playerScoreDisplay = 
+document.getElementById("playerScoreDisplay")
+    const computerScoreDisplay =
+document.getElementById("computerScoreDisplay")
     const randomNumber =
 Math.floor(Math.random() * 3);
 
@@ -26,16 +30,32 @@ Math.floor(Math.random() * 3);
   if (playerChoice.innerHTML === computerChoice.innerHTML) {
     statement.innerHTML = "Tie"
   } else if (
-    (playerChoice.innerHTML === "Rock" && computerChoice.innerHTML === "Paper") ||
-    (playerChoice.innerHTML === "Paper" && computerChoice.innerHTML === "Scissors") ||
-    (playerChoice.innerHTML === "Scissors" && computerChoice.innerHTML === "Rock")
+    (computerChoice.innerHTML === "Rock" && playerChoice.innerHTML === "Paper") ||
+    (computerChoice.innerHTML === "Paper" && playerChoicee.innerHTML === "Scissors") ||
+    (computerChoice.innerHTML === "Scissors" && playerChoice.innerHTML === "Rock")
   ) {
     statement.innerHTML = "Winner";
   } else {
     statement.innerHTML = "Loser";
   }
   }
+  function reset() {
+    const statement = 
+    document.getElementById("statement");
+    const playerChoice =
+    document.getElementById("playerChoice");
+    const computerChoice =
+    document.getElementById("computerChoice");
+    const playerScoreDisplay = 
+    document.getElementById("playerScoreDisplay");
+    const computerScoreDisplay =
+    document.getElementById("computerScoreDisplay");
+
+statement.innerHTML = "Make A choice to start the Game!";
+playerChoice.innerHTML = "?";
+computerChoice.innerHTML = "?";
+playerScoreDisplay.innerHTML = "0";
+computerScoreDisplay.innerHTML = "0"; 
 
 
-
-}
+  }
