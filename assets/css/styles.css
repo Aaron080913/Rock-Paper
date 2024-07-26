@@ -31,4 +31,5 @@ button:active{
 #instructions_area {
 display: flex;
 justify-content: space-evenly;
+flex-direction: column;
 }
