@@ -23,11 +23,9 @@ button {
 }
 button:hover{
     background-color: hsl(0, 0%, 50%);
-    scale: 0.9;
     transition: 0.7s;
 }
 button:active{
-    scale: 0.6;
     transition: 0.6s;
 }
 #instructions_area {
