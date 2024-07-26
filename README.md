@@ -54,7 +54,7 @@ Rock Paper Scissors is A game site that allows the user to play rock paper sciss
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faaron080913.github.io%2FRock-Paper%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Lighthouse
-  [(Lighthouse) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faaron080913.github.io%2FRock-Paper%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  [(Lighthouse) validator](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Lighthouse.jpeg)
 
 ### De-Bug
 
