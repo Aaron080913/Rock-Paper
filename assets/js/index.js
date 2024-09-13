@@ -1,19 +1,19 @@
-function PlayerRoll (roll) {
-    const statement = 
-document.getElementById("statement");
-    const playerChoice =
-document.getElementById("playerChoice");
-    const computerChoice =
-document.getElementById("computerChoice");
-    const randomNumber =
-Math.floor(Math.random() * 3);
+function PlayerRoll(roll) {
+  const statement =
+    document.getElementById("statement");
+  const playerChoice =
+    document.getElementById("playerChoice");
+  const computerChoice =
+    document.getElementById("computerChoice");
+  const randomNumber =
+    Math.floor(Math.random() * 3);
 
   if (randomNumber === 0) {
     computerChoice.innerHTML = "Rock";
   } else if (randomNumber === 1) {
     computerChoice.innerHTML = "Paper";
   } else if (randomNumber === 2) {
-    computerChoice.innerHTML = "Scissors";  
+    computerChoice.innerHTML = "Scissors";
   }
   if (roll === "Rock") {
     playerChoice.innerHTML = "Rock";
@@ -34,21 +34,22 @@ Math.floor(Math.random() * 3);
   } else {
     statement.innerHTML = "Loser";
   }
-  }
-  function reset() {
-    const statement = 
+}
+
+function reset() {
+  const statement =
     document.getElementById("statement");
-    const playerChoice =
+  const playerChoice =
     document.getElementById("playerChoice");
-    const computerChoice =
+  const computerChoice =
     document.getElementById("computerChoice");
-    const playerScoreDisplay = 
+  const playerScoreDisplay =
     document.getElementById("playerScoreDisplay");
-    const computerScoreDisplay =
+  const computerScoreDisplay =
     document.getElementById("computerScoreDisplay");
 
-statement.innerHTML = "Make A choice to start the Game!";
-playerChoice.innerHTML = "?";
-computerChoice.innerHTML = "?";
+  statement.innerHTML = "Make A choice to start the Game!";
+  playerChoice.innerHTML = "?";
+  computerChoice.innerHTML = "?";
 
-  }
+}
