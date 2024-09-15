@@ -27,7 +27,7 @@ function PlayerRoll(roll) {
     statement.innerHTML = "Tie"
   } else if (
     (computerChoice.innerHTML === "Rock" && playerChoice.innerHTML === "Paper") ||
-    (computerChoice.innerHTML === "Paper" && playerChoicee.innerHTML === "Scissors") ||
+    (computerChoice.innerHTML === "Paper" && playerChoice.innerHTML === "Scissors") ||
     (computerChoice.innerHTML === "Scissors" && playerChoice.innerHTML === "Rock")
   ) {
     statement.innerHTML = "Winner";
@@ -35,7 +35,7 @@ function PlayerRoll(roll) {
     statement.innerHTML = "Loser";
   }
 }
-
+//Reset Button Javascript
 function reset() {
   const statement =
     document.getElementById("statement");
@@ -47,7 +47,7 @@ function reset() {
     document.getElementById("playerScoreDisplay");
   const computerScoreDisplay =
     document.getElementById("computerScoreDisplay");
-
+//Starting view of the game
   statement.innerHTML = "Make A choice to start the Game!";
   playerChoice.innerHTML = "?";
   computerChoice.innerHTML = "?";
