@@ -19,29 +19,15 @@
         <h1>Rock-Paper-Scissors</h1>
     </header>
     <!--Main Game Area with choices and result-->
-    <div class="game">
-    <h2 class="move">Make A choice to start the Game!</h2>
-    <div class="score">  
-        <div class="playerScore">
-            <h2>Player</h2>
-            <p class="p-count count">0</p>
-
-        </div>       
-        <div class="computerScore">
-            <h2>Computer</h2>
-            <p class="c-count count">0</p>
-
-        </div>
+    <h2 id="statement">Make A choice to start the Game!</h2>
+    <div>Your Choice: </div><span id="playerChoice">?</span>
+    <div>Computer Choice: </div><span id="computerChoice">?</span>
+    <div>
+        <button id="rock" aria-label="rock" onclick="PlayerRoll('Rock')"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button id="paper" aria-label="paper" onclick="PlayerRoll('Paper')"><i class="fa-solid fa-hand"></i></button>
+        <button id="scissors" aria-label="scissors" onclick="PlayerRoll('Scissors')"><i class="fa-solid fa-hand-scissors"></i></button>
     </div>
-    <div class="movesleft">Moves Left: 10 </div>
-    <div class="options">
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissor">Scissors</button>
-    </div>
-    <div class="result"></div>
-    <button class="reload">Reset</button>
-</div>
+    <button onclick="reset()">Reset</button>
     <footer>
         <div class="card">
             <div class="card-body">
