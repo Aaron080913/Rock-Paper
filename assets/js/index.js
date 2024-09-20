@@ -2,14 +2,14 @@ const game = () => {
     let playerScore = 0;
     let computerScore = 0;
     let moves = 0;
-
+// main game functions
     const playGame = () => {
         const rockBtn = document.querySelector('.rock');
         const paperBtn = document.querySelector('.paper');
         const scissorBtn = document.querySelector('.scissor');
         const playerOptions = [rockBtn, paperBtn, scissorBtn];
         const computerOptions = ['rock', 'paper', 'scissors']
-
+// start of game function
         playerOptions.forEach(option => {
           option.addEventListener('click', function () {
 
@@ -19,16 +19,16 @@ const game = () => {
 
             const choiceNumber = Math.floor(Math.random() * 3);
             const computerChoice = computerOptions[choiceNumber];
-
+// this is the function to check who is the winner of the game
             winner(this.innerText, computerChoice)
-
+//when 10 turns are over the gameover function starts
             if (moves == 10) {
                 gameOver(playerOptions, movesLeft);
             }
           })
         })
     }
-
+//scores added up to decide winner
     const winner = (player, computer) => {
         const result = document.querySelector('.result');
         const playerScoreDisplay = document.querySelector('.p-count');
@@ -72,7 +72,7 @@ const game = () => {
             }
         }
     }
-
+// Game over function
     const gameOver = (playerOptions, movesLeft) => {
       const chooseMove = document.querySelector('.move');
       const result = document.querySelector('.result');
