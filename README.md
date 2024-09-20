@@ -2,7 +2,7 @@
 
 Rock Paper Scissors is A game site that allows the user to play rock paper scissors against the computer. The site is easy to navigate and is aimed at all ages for anyone who wants to play A game of Rock Paper Scissors.
 
-![Responsice Mockup](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Responsive.jpeg)
+![Responsice Mockup](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/responsive.jpeg)
 
 ## Features 
 
@@ -10,41 +10,44 @@ Rock Paper Scissors is A game site that allows the user to play rock paper sciss
 
   - Has the Name of the Game as A header of the main game page, and has the heading of The games names and rules on the instructions page.
 
-![Header](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Heading.jpeg)
+![Header](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/heading.jpeg)
 
 - __The Instructions page Link__
 
   - The Instructions Page link that takes the user to the the rules page incase if they do not understnad how to play.
 
-![Instructions Link](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Instructions%20link.jpeg)
+![Instructions Link](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/instructions-link.jpeg)
 
 - __Make A Choice Section__
 
   - This lets the user know that to start the game the user needs to click one of the buttons to start the Game. 
 
-![Make A Choice](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Initial%20Instructions.jpeg)
+![Make A Choice](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/initial-instructions.jpeg)
 
 - __Choice Display__
 
-  - This section Shows the users what the user choice and the computer choice was for the current session and will let you know the result.
+  - This section Shows the users what the outcome was for the current session and will let you know the result.
 
-![Choice Display](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Choice.jpeg)
-![Choice Display](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Computer%20Choice.jpeg)
-![Choice Display](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Display.jpeg)
+![Choice Display](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/choice-outcome.jpeg)
 
 - __The Buttons__ 
 
   - This section is part of the main game, it displays the buttons for the choices and a reset button to reset the game.
 
-![Button](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/button%20choices.jpeg)
-![Button](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Reset%20Button.jpeg)
+![Button](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/button-choices.jpeg)
+![Button](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/reset-button.jpeg)
 
 - __The Instructions Page__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The Instructions page details at how to win each session.
 
-![Instructions Page](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Instructions%20Page.jpeg)
+![Instructions Page](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/instructions-page.jpeg)
+
+- __The Footer__ 
+
+  - The footer has a link to the owners github page and a copyright stamp.
+
+![Footer](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/footer.jpeg)
 
 ## Testing 
 
@@ -54,11 +57,11 @@ Rock Paper Scissors is A game site that allows the user to play rock paper sciss
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faaron080913.github.io%2FRock-Paper%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Lighthouse
-  ![(Lighthouse) validator](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/Lighthouse.jpeg)
+  ![(Lighthouse) validator](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/lighthouse.jpeg)
 
 ### De-Bug
 
-![De-Bug](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/DeBug%20Pic.jpeg)
+![De-Bug](https://github.com/Aaron080913/Rock-Paper/blob/main/assets/media/debug.jpeg)
 - When i was testing my page, it showed that i had added a scale element to two of my css files, but scale is not correct, so it was removed.
 
 ## Deployment
@@ -76,4 +79,5 @@ The live link can be found here - https://aaron080913.github.io/Rock-Paper/
 ## Credits 
 
 - Instructions on how to create a Rock Paper Scissors page was taken from (https://medium.com/@dimterion/rock-paper-scissors-game-with-html-css-javascript-95e1a8876851)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The ability to add a loop for the javascript was taken from - https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+-favicon https://www.bing.com/images/search?view=detailV2&ccid=k6QXKXRu&id=B003CEF676B21D7ACFC3E598A19A2BC76DC957E7&thid=OIP.k6QXKXRuECwe5dea2PZ8QwHaHa&mediaurl=https%3a%2f%2fcdn2.iconfinder.com%2fdata%2ficons%2fgame-and-video-game-6%2f512%2frock-paper-scissors-game-play_-1024.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.93a41729746e102c1ee5d79ad8f67c43%3frik%3d51fJbccrmqGY5Q%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1024&q=rock+paper+scissors+favicon&simid=608026211595742243&FORM=IRPRST&ck=ED4932355D02E0CD23BFFBCCE6A324A3&selectedIndex=2&itb=1
